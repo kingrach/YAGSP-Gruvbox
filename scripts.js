@@ -131,28 +131,6 @@ function greetingWeather() {
 greetingWeather();
 
 /**
- * Random Images
- */
-
-var images = [
-  "https://kingrach.github.io/YAGSP-Tokyo-Night/img/01.gif",
-  "https://kingrach.github.io/YAGSP-Tokyo-Night/img/02.gif",
-  "https://kingrach.github.io/YAGSP-Tokyo-Night/img/03.gif",
-  "https://kingrach.github.io/YAGSP-Tokyo-Night/img/04.gif",
-  "https://kingrach.github.io/YAGSP-Tokyo-Night/img/05.gif",
-  "https://kingrach.github.io/YAGSP-Tokyo-Night/img/06.gif",
-  "https://kingrach.github.io/YAGSP-Tokyo-Night/img/07.gif",
-  "https://kingrach.github.io/YAGSP-Tokyo-Night/img/08.gif"
-];
-function getImg() {
-  var img = '<img src=\"';
-  var randomIndex = Math.floor(Math.random() * images.length);
-  img += images[randomIndex];
-  img += '\" alt=\"\"/>';
-  return img;
-}
-
-/**
  * Search function
  */
 
